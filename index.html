@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor Bin2Dec</title>
+  </head>
+  <body>
+    <h1>Conversor Binario - Decimal</h1>
+    <input
+      id="input"
+      type="text"
+      placeholder="Insira um numero de até 8 caracteres"
+      maxlength="8"
+      oninput="validaEntrada(this)"
+    />
+    <button onclick="converter()">Converter</button>
+    <p>O numero em decimal é: <span id="r"></span></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
