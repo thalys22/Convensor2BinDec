@@ -7,7 +7,6 @@ function validaEntrada(input) {
       (input.value = valor.slice(0, -1)))
     : null;
 }
-
 function converter() {
   var numeroInput = document.getElementById('input');
   var valor = numeroInput.value;
